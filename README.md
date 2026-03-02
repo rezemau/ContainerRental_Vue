@@ -1,5 +1,249 @@
-# Vue 3 + Vite
+# 🚢 Container Rental Management — Frontend
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> 🇧🇷 [Português](#português) | 🇺🇸 [English](#english)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+<a name="português"></a>
+## 🇧🇷 Português
+
+Interface web para gestão de locação de containers, desenvolvida com **Vue 3**, **Vite** e **Chart.js**.
+
+---
+
+## ✨ Funcionalidades
+
+### Operacional
+| Módulo | Descrição |
+|---|---|
+| **Dashboard** | Visão geral com KPIs de locações, clientes, containers e receita |
+| **Containers** | Cadastro, edição e remoção de containers |
+| **Clientes** | Gestão completa de clientes |
+| **Funcionários** | Controle de funcionários (acesso restrito) |
+| **Locações** | Registro e acompanhamento de locações com destaque de linha selecionada |
+| **Solicitações** | Gestão de solicitações de locação |
+| **Produtos** | Cadastro de produtos associados |
+
+### Analytics
+| Página | Descrição |
+|---|---|
+| **Dashboard Analytics** | Resumo executivo com totais e gráfico geral |
+| **Volume Mensal** | Gráfico de barras com quantidade de locações e receita por mês |
+| **Containers** | 6 gráficos comparando containers por receita, locações e custo-benefício (top e piores) |
+| **Clientes** | 6 gráficos comparando clientes por receita, locações e custo-benefício (top e piores) |
+| **Locações** | 4 gráficos: melhores/piores locações por custo-benefício e duração |
+| **Insights** | Sugestões e promoções automáticas geradas pelo backend |
+
+### Outras características
+- 🌐 **Internacionalização** — Suporte a `pt-BR`, `en-US` e `es-ES` via `vue-i18n`
+- 🔐 **Autenticação** — Guarda de rotas com controle de acesso por perfil
+- 📊 **Gráficos interativos** — Pie e Bar charts com `Chart.js 4` + `vue-chartjs`
+- 🎨 **Layout responsivo** — Grid adaptável com sidebar colapsável
+
+---
+
+## 🛠️ Tecnologias
+
+- [Vue 3](https://vuejs.org/) + [`<script setup>`](https://vuejs.org/api/sfc-script-setup.html)
+- [Vite 7](https://vitejs.dev/)
+- [Vue Router 4](https://router.vuejs.org/)
+- [vue-i18n 11](https://vue-i18n.intlify.dev/)
+- [Chart.js 4](https://www.chartjs.org/) + [vue-chartjs 5](https://vue-chartjs.org/)
+
+---
+
+## 🚀 Como executar
+
+### Pré-requisitos
+
+- Node.js 18+
+- npm 9+
+
+### Instalar dependências
+
+```bash
+npm install
+```
+
+---
+
+### ▶️ Modo Mock (desenvolvimento local)
+
+Utiliza o arquivo `.env.development`, que aponta para um servidor mock local (ex.: `json-server` na porta `3000`).
+
+```bash
+npm run dev
+```
+
+> Acesse: [http://localhost:5173](http://localhost:5173)
+
+Variável utilizada (`.env.development`):
+```
+VITE_API_URL=http://localhost:3000/api
+```
+
+---
+
+### 🧪 Modo Homologação (homol)
+
+Utiliza o arquivo `.env.homol`, que aponta para o backend real em homologação.
+
+```bash
+npm run dev:homol
+```
+
+> Acesse: [http://localhost:5173](http://localhost:5173)
+
+Variável utilizada (`.env.homol`):
+```
+VITE_API_URL=http://localhost:8080
+```
+
+---
+
+### 📦 Build para produção
+
+```bash
+npm run build
+```
+
+O output será gerado na pasta `dist/`.
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+src/
+├── assets/          # Recursos estáticos
+├── components/      # Componentes reutilizáveis (BarChart, PieChart, PageHeader...)
+├── i18n/            # Arquivos de tradução (pt-BR, en-US, es-ES)
+├── pages/           # Páginas da aplicação
+│   └── analytics/   # Subpáginas de analytics
+├── router/          # Configuração de rotas
+├── services/        # Chamadas à API REST
+└── stores/          # Estado global (auth, language)
+```
+
+---
+
+<a name="english"></a>
+## 🇺🇸 English
+
+Web interface for container rental management, built with **Vue 3**, **Vite** and **Chart.js**.
+
+---
+
+## ✨ Features
+
+### Operational
+| Module | Description |
+|---|---|
+| **Dashboard** | Overview with KPIs for rentals, clients, containers and revenue |
+| **Containers** | Create, edit and delete containers |
+| **Clients** | Full client management |
+| **Employees** | Employee management (restricted access) |
+| **Rentals** | Rental tracking with selected row highlight |
+| **Requests** | Rental request management |
+| **Products** | Product catalog associated with rentals |
+
+### Analytics
+| Page | Description |
+|---|---|
+| **Analytics Dashboard** | Executive summary with totals and overview chart |
+| **Monthly Volume** | Bar chart with rental count and revenue per month |
+| **Containers** | 6 charts comparing containers by revenue, rentals and cost-benefit (top & worst) |
+| **Clients** | 6 charts comparing clients by revenue, rentals and cost-benefit (top & worst) |
+| **Rentals** | 4 charts: best/worst rentals by cost-benefit and duration |
+| **Insights** | Automatic suggestions and promotions generated by the backend |
+
+### Other highlights
+- 🌐 **Internationalization** — Support for `pt-BR`, `en-US` and `es-ES` via `vue-i18n`
+- 🔐 **Authentication** — Route guards with role-based access control
+- 📊 **Interactive charts** — Pie and Bar charts with `Chart.js 4` + `vue-chartjs`
+- 🎨 **Responsive layout** — Adaptive grid with collapsible sidebar
+
+---
+
+## 🛠️ Tech Stack
+
+- [Vue 3](https://vuejs.org/) + [`<script setup>`](https://vuejs.org/api/sfc-script-setup.html)
+- [Vite 7](https://vitejs.dev/)
+- [Vue Router 4](https://router.vuejs.org/)
+- [vue-i18n 11](https://vue-i18n.intlify.dev/)
+- [Chart.js 4](https://www.chartjs.org/) + [vue-chartjs 5](https://vue-chartjs.org/)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm 9+
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### ▶️ Mock Mode (local development)
+
+Uses the `.env.development` file, pointing to a local mock server (e.g. `json-server` on port `3000`).
+
+```bash
+npm run dev
+```
+
+> Open: [http://localhost:5173](http://localhost:5173)
+
+Variable used (`.env.development`):
+```
+VITE_API_URL=http://localhost:3000/api
+```
+
+---
+
+### 🧪 Homologation Mode (homol)
+
+Uses the `.env.homol` file, pointing to the real backend staging environment.
+
+```bash
+npm run dev:homol
+```
+
+> Open: [http://localhost:5173](http://localhost:5173)
+
+Variable used (`.env.homol`):
+```
+VITE_API_URL=http://localhost:8080
+```
+
+---
+
+### 📦 Production Build
+
+```bash
+npm run build
+```
+
+Output will be generated in the `dist/` folder.
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/          # Static assets
+├── components/      # Reusable components (BarChart, PieChart, PageHeader...)
+├── i18n/            # Translation files (pt-BR, en-US, es-ES)
+├── pages/           # Application pages
+│   └── analytics/   # Analytics sub-pages
+├── router/          # Route configuration
+├── services/        # REST API calls
+└── stores/          # Global state (auth, language)
+```
