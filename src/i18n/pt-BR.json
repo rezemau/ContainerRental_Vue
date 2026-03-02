@@ -1,0 +1,233 @@
+{
+  "APP": {
+    "NAME": "Locadora de Containers",
+    "PORTAL_CLIENT": "Portal do Cliente",
+    "PORTAL_ADMIN": "Painel Operacional",
+    "SUBTITLE_CLIENT": "Solicite, acompanhe e estenda locações de containers.",
+    "SUBTITLE_ADMIN": "Gerencie o parque de containers e aprovações."
+  },
+  "NAV": {
+    "DASHBOARD": "Visão geral",
+    "CONTAINERS": "Containers",
+    "CLIENTS": "Clientes",
+    "EMPLOYEES": "Funcionários",
+    "RENTALS": "Locações",
+    "REQUESTS": "Solicitações",
+    "DETAIL": "Detalhe",
+    "ANALYTICS_DASHBOARD": "Analytics geral",
+    "ANALYTICS_VOLUME": "Volume por mês",
+    "ANALYTICS_CONTAINERS": "Containers rentáveis",
+    "ANALYTICS_CLIENTS": "Clientes rentáveis",
+    "ANALYTICS_RENTALS": "Locações",
+    "ANALYTICS_INSIGHTS": "Insights de promoções",
+    "PRODUCTS": "Produtos"
+  },
+  "ACTIONS": {
+    "SAVE": "Salvar",
+    "SEND": "Enviar solicitação",
+    "APPROVE": "Aprovar",
+    "REJECT": "Rejeitar",
+    "ACTIONS": "Ações",
+    "BACK": "Voltar",
+    "SEARCH": "Buscar",
+    "EXPAND_MENU": "Expandir menu",
+    "COLLAPSE_MENU": "Recolher menu",
+    "EDIT": "Editar"
+  },
+  "FILTERS": {
+    "BY_TYPE_STATUS": "Buscar por tipo ou status",
+    "BY_NAME_CNAE": "Buscar por nome ou CNAE",
+    "BY_NAME_ROLE": "Buscar por nome ou cargo",
+    "BY_ID_STATUS": "Buscar por ID ou status",
+    "BY_NAME": "Buscar por nome"
+  },
+  "SECTIONS": {
+    "NEW_CONTAINER": "Novo container",
+    "INVENTORY": "Inventário",
+    "NEW_CLIENT": "Novo cliente",
+    "CLIENT_BASE": "Base de clientes",
+    "NEW_EMPLOYEE": "Novo colaborador",
+    "TEAM": "Equipe",
+    "CONTRACTS": "Contratos",
+    "DETAILS": "Detalhes",
+    "NEW_REQUEST": "Nova solicitação",
+    "DECISION_PANEL": "Painel de decisões",
+    "OPEN_REQUESTS": "Solicitações em aberto",
+    "NEW_PRODUCT": "Novo produto",
+    "PRODUCTS": "Produtos"
+  },
+  "DASHBOARD": {
+    "TITLE": "Visão geral",
+    "SUBTITLE": "Indicadores-chave das operações de locação",
+    "ACTIVE_CONTAINERS": "Containers ativos",
+    "CLIENTS": "Clientes cadastrados",
+    "ACTIVE_RENTALS": "Locações em andamento",
+    "PENDING_REQUESTS": "Solicitações pendentes",
+    "PRIORITIES_TITLE": "Prioridades da semana",
+    "PRIORITY_1": "Confirmar capacidade disponível para clientes do segmento químico.",
+    "PRIORITY_2": "Garantir logística de entrega para containers reefer.",
+    "PRIORITY_3": "Revisar contratos com locações próximas do vencimento."
+  },
+  "FORM": {
+    "TYPE": "Tipo",
+    "CAPACITY": "Capacidade (m³)",
+    "AGE": "Idade (anos)",
+    "YEARS": "anos",
+    "STATUS": "Status",
+    "PERIOD": "Período",
+    "COMPANY_NAME": "Nome da empresa",
+    "CNPJ": "CNPJ",
+    "CNAE": "CNAE",
+    "NAME": "Nome",
+    "ROLE": "Cargo",
+    "ACTIVE": "Ativo",
+    "BUSINESS_FIELD": "Ramo de atividade",
+    "START_DATE": "Data início",
+    "END_DATE": "Data fim",
+    "NOTE": "Observação",
+    "CONTAINER_ID": "ID do container",
+    "RENTAL_ID": "ID da locação",
+    "REASON": "Motivo",
+    "PRODUCT_NAME": "Nome do produto",
+    "PRICE_DAY": "Valor por dia",
+    "EXTRAS": "Produtos adicionais"
+  },
+  "TYPE": {
+    "DRY": "Dry",
+    "REEFER": "Reefer",
+    "OPEN_TOP": "Open Top",
+    "TANQUE": "Tanque",
+    "REEFER_PRIVATE": "Reefer privado",
+    "REEFER_SHARED": "Reefer compartilhado",
+    "DRY_PRIVATE": "Seco privado",
+    "DRY_SHARED": "Seco compartilhado",
+    "FRAGIL_PROTEGIDO": "Frágil com proteção",
+    "FRAGIL_PADRAO": "Frágil padrão"
+  },
+  "STATUS": {
+    "ACTIVE": "Ativo",
+    "INACTIVE": "Inativo",
+    "CONTAINER": {
+      "ATIVO": "Ativo",
+      "EM_MANUTENCAO": "Em manutenção",
+      "INDISPONIVEL": "Indisponível"
+    },
+    "RENTAL": {
+      "PENDENTE": "Pendente",
+      "ATIVA": "Ativa",
+      "ENCERRADA": "Encerrada"
+    },
+    "REQUEST": {
+      "PENDENTE": "Pendente",
+      "APROVADA": "Aprovada",
+      "REJEITADA": "Rejeitada"
+    }
+  },
+  "REQUEST": {
+    "NEW_RENTAL": "Nova locação",
+    "EXTEND_PERIOD": "Extensão de período",
+    "HELP_TEXT": "Revise as solicitações pendentes e aprove ou rejeite conforme política comercial.",
+    "EMPTY_DETAIL": "Selecione uma solicitação para ver os detalhes.",
+    "RELATED_RENTAL": "Locação vinculada",
+    "ORIGINAL_PERIOD": "Período original",
+    "REQUESTED_PERIOD": "Período solicitado",
+    "CHANGE_SUMMARY": "Resumo da mudança",
+    "INCREASE_DAYS": "Aumento de {{dias}} dias.",
+    "DECREASE_DAYS": "Diminuição de {{dias}} dias.",
+    "NO_CHANGE": "Sem alteração no período."
+  },
+  "SUBTITLES": {
+    "CONTAINERS": "Cadastre e acompanhe o inventário disponível.",
+    "CLIENTS": "Empresas usuárias e seus dados fiscais.",
+    "EMPLOYEES": "Gerencie colaboradores e permissões internas.",
+    "RENTALS": "Acompanhe contratos ativos e históricos.",
+    "REQUESTS": "Novas locações e extensões de contratos.",
+    "ANALYTICS_DASHBOARD": "Panorama dos indicadores financeiros e operacionais.",
+    "ANALYTICS_VOLUME": "Evolução mensal das locações e receitas.",
+    "ANALYTICS_CONTAINERS": "Ranking de rentabilidade por container.",
+    "ANALYTICS_CLIENTS": "Ranking de rentabilidade por cliente.",
+    "ANALYTICS_RENTALS": "Locações com melhor relação custo x benefício.",
+    "ANALYTICS_INSIGHTS": "Recomendações de promoções baseadas nos dados.",
+    "PRODUCTS": "Cadastre serviços adicionais e valores por dia."
+  },
+  "BADGE": {
+    "OPERATIONAL": "Operacional",
+    "ACTIVE_BASE": "Base ativa",
+    "IN_PROGRESS": "Acompanhamento",
+    "WAITING": "Aguardando"
+  },
+  "RENTAL": {
+    "HELP_TEXT": "Para solicitar extensão, utilize a área de Solicitações.",
+    "EMPTY": "Selecione uma locação para ver os detalhes.",
+    "DETAIL_EMPTY": "Não foi possível carregar os detalhes."
+  },
+  "PROFILE": {
+    "ACTIVE": "Perfil ativo",
+    "CLIENT": "Cliente",
+    "EMPLOYEE": "Funcionário"
+  },
+  "LANG": {
+    "EN": "Trocar para inglês",
+    "ES": "Trocar para espanhol",
+    "PT": "Trocar para português"
+  },
+  "TOAST": {
+    "CONTAINER_SAVED": "Container cadastrado com sucesso.",
+    "CLIENT_SAVED": "Cliente cadastrado com sucesso.",
+    "EMPLOYEE_SAVED": "Colaborador cadastrado com sucesso.",
+    "RENTAL_UPDATED": "Locação atualizada manualmente.",
+    "REQUEST_SENT": "Solicitação enviada com sucesso.",
+    "REQUEST_APPROVED": "Solicitação aprovada.",
+    "REQUEST_REJECTED": "Solicitação rejeitada.",
+    "PRODUCT_SAVED": "Produto salvo com sucesso.",
+    "PRODUCTS_UPDATED": "Produtos da solicitação atualizados."
+  },
+  "ANALYTICS": {
+    "TOTAL_RENTALS": "Locações",
+    "TOTAL_CLIENTS": "Clientes",
+    "TOTAL_CONTAINERS": "Containers",
+    "TOTAL_REVENUE": "Receita total",
+    "AVG_TICKET": "Ticket médio",
+    "MONTH": "Mês",
+    "RENTALS": "Locações",
+    "REVENUE": "Receita",
+    "CLIENT": "Cliente",
+    "CONTAINERS": "Containers",
+    "RENTAL": "Locação",
+    "DAYS": "Dias",
+    "DISCOUNT": "Desconto",
+    "COST_BENEFIT": "Custo/benefício",
+    "AVG_DISCOUNT": "Desconto médio",
+    "MONTHLY_SHARE": "% mensal",
+    "AVG_CONTAINERS_CONTRACT": "Containers/contrato",
+    "AVG_DAYS_RENTAL": "Dias/locação",
+    "PROMO_INSIGHTS": "Insights de promoções",
+    "PIE_VIEW": "Visão em gráfico de pizza",
+    "MONTHLY": "Mensal",
+    "NON_MONTHLY": "Não mensal",
+    "TOP_CLIENT": "Cliente mais rentável",
+    "LOW_CLIENT": "Cliente menos rentável",
+    "MOST_RENTALS_CLIENT": "Cliente com mais locações",
+    "TOP_CONTAINER": "Container mais rentável",
+    "LOW_CONTAINER": "Container menos rentável",
+    "MOST_RENTALS_CONTAINER": "Container mais locado",
+    "OTHERS": "Outros",
+    "TOP_MONTH_REVENUE": "Mês com maior receita",
+    "LOW_MONTH_REVENUE": "Mês com menor receita",
+    "MOST_RENTALS_MONTH": "Mês com mais locações",
+    "LEAST_RENTALS_MONTH": "Mês com menos locações",
+    "TOP_RENTAL_SCORE": "Melhor custo-benefício",
+    "LOW_RENTAL_SCORE": "Pior custo-benefício",
+    "LONGEST_RENTAL": "Locações mais longas",
+    "SHORTEST_RENTAL": "Locações mais curtas",
+    "LEAST_RENTALS_CLIENT": "Cliente com menos locações",
+    "TOP_COST_BENEFIT_CLIENT": "Cliente com melhor custo-benefício",
+    "LOW_COST_BENEFIT_CLIENT": "Cliente com pior custo-benefício",
+    "LEAST_RENTALS_CONTAINER": "Container menos locado",
+    "TOP_COST_BENEFIT_CONTAINER": "Container com melhor custo-benefício",
+    "LOW_COST_BENEFIT_CONTAINER": "Container com pior custo-benefício"
+  },
+  "TEXT": {
+    "NO_NOTE": "Nenhuma observação."
+  }
+}
